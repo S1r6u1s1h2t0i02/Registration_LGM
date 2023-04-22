@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+<body>
+    <div class="head" color="white">
+        <h3>Registration</h3>
+    </div>
+    <div class="contain">
+        <form>
+            <h1>Registration form</h1>
+            <div class="inputform">
+                <label>First Name :- </label>
+                <input type="text" name="username" placeholder="Enter First name" id="fname" autocomplete="off" required><br>
+                <br>
+                <label>Last Name :-</label>
+                <input type="text" name="Last name" placeholder=" Enter Last name" id="lname" autocomplete="off" required><br> <br>
+
+                <label>Mobile Number :-</label>
+                <input type="text" name="Mobilenumber" placeholder="Enter mobile number" name="mobile number" id="email"
+                    autocomplete="10" required><br> <br>
+                <label>Email id:-</label>
+                <input type="text" name="Email id" placeholder="Enter Email id" name="Email id" id="mobile" autocomplete="off"
+                    required><br> <br>
+
+            </div>
+            <button name="login" onclick="AddRow()"><b>Sign Up</b></button> <br><br>
+
+        </form>
+        <table id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email address</th>
+                    <th>Mobile no</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    </html>
